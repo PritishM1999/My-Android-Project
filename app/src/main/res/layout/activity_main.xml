@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="#ffffff"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass">
+
+    w
+
+    <TextView
+        android:id="@+id/sub_name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/box3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="21dp"
+        android:fontFamily="@font/alegreya_sans_medium"
+        android:text="Enter Password"
+        android:textColor="#969E8B"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sub_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="562dp"
+        android:fontFamily="@font/alegreya_sans_medium"
+        android:text="Enter Phone Number"
+        android:textColor="#969E8B"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="650dp"
+        android:fontFamily="@font/marck_script"
+        android:text="@string/digilocker"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sub_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="617dp"
+        android:fontFamily="@font/alegreya_sans_medium"
+        android:text="Sign In to continue"
+        android:textColor="#969E8B"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/box1"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="120"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:counterTextColor="#252734"
+        android:layout_height="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:hint="Enter emai ID" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/box2"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="180"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:counterTextColor="#252734"
+        android:layout_height="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:hint="Enter Phone Number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/box3"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="230"
+        android:layout_marginRight="30dp"
+        app:counterTextColor="#252734">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="711dp"
+            android:hint="@string/enter_password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/login"
+        android:layout_width="127dp"
+        android:layout_height="36dp"
+        android:layout_below="@id/box3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="335dp"
+        android:minWidth="170dp"
+        android:minHeight="50dp"
+        app:cardBackgroundColor="#F56258"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="login"
+            android:textColor="#ffff"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

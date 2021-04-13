@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="digilocker">Digilocker</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="back"><![CDATA[<-- Back]]></string>
+    <string name="app_name">name1</string>
+</resources>

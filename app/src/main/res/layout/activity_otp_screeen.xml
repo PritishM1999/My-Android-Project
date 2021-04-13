@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".otp_screeen"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="166dp"
+        android:layout_height="188dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/NoobLogo" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="97dp"
+        android:layout_below="@id/imageView"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="35dp"
+        android:background="#ffffff"
+        android:fontFamily="@font/macondo_swash_caps"
+        android:gravity="center"
+        android:text="Set your 6 digit PIN for 2 factor authentication to your DigitalLocker Account"
+        android:textAlignment="center"
+        android:textSize="21sp" />
+
+    <com.chaos.view.PinView
+        android:id="@+id/pinview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/PinWidget.PinView"
+        android:textSize="10sp"
+        app:itemCount="6"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="35dp"
+        android:layout_below="@+id/textView2"
+        app:itemRadius="4dp"
+        android:inputType="number"
+        app:itemHeight="40dp"
+        app:lineColor="#F56258" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pinview"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginBottom="200dp"
+        android:text="Didn't receive code.."
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pinview"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="255dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="200dp"
+        android:text="Resend"
+        android:textColor="#F56258"
+        android:textSize="16sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Next"
+        android:layout_width="127dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="89dp"
+        android:minWidth="170dp"
+        android:minHeight="50dp"
+        app:cardBackgroundColor="#F56258"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:text="Next"
+            android:textColor="#ffff"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="343dp"
+        android:layout_marginBottom="694dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:text="GoBack"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>
