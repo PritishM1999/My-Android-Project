@@ -14,7 +14,8 @@
         android:layout_height="188dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:src="@drawable/NoobLogo" />
+        android:src="@drawable/NoobLogo"
+        android:contentDescription="@string/todo" />
 
 
     <TextView
@@ -28,7 +29,7 @@
         android:background="#ffffff"
         android:fontFamily="@font/macondo_swash_caps"
         android:gravity="center"
-        android:text="Set your 6 digit PIN for 2 factor authentication to your DigitalLocker Account"
+        android:text="@string/set_your_6_digit_pin_for_2_factor_authentication_to_your_digitallocker_account"
         android:textAlignment="center"
         android:textSize="21sp" />
 
@@ -37,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         style="@style/PinWidget.PinView"
-        android:textSize="10sp"
+        android:textSize="12sp"
         app:itemCount="6"
         android:layout_centerHorizontal="true"
         android:layout_margin="35dp"
@@ -52,28 +53,28 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/pinview"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="95dp"
+        android:layout_marginStart="95dp"
         android:layout_marginTop="51dp"
         android:layout_marginBottom="200dp"
-        android:text="Didn't receive code.."
-        android:textSize="16sp" />
+        android:text="@string/didn_t_receive_code"
+        android:textSize="16sp"
+        tools:ignore="RelativeOverlap" />
 
     <TextView
         android:layout_width="75dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/pinview"
+        android:layout_below="@id/Resend"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="255dp"
-        android:layout_marginLeft="95dp"
         android:layout_marginTop="49dp"
         android:layout_marginEnd="81dp"
-        android:layout_marginRight="55dp"
         android:layout_marginBottom="200dp"
-        android:text="Resend"
+        android:text="@string/resend"
         android:textColor="#F56258"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        tools:ignore="UnknownId" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/Next"
@@ -97,7 +98,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="0dp"
-            android:text="Next"
+            android:text="@string/next"
             android:textColor="#ffff"
             android:textSize="20sp" />
     </androidx.cardview.widget.CardView>
@@ -111,7 +112,7 @@
         android:layout_marginEnd="343dp"
         android:layout_marginBottom="694dp"
         android:background="@color/cardview_shadow_start_color"
-        android:text="GoBack"
+        android:text="@string/goback"
         android:textSize="16sp" />
 
 

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="digilocker">Digilocker</string>
-    <string name="enter_password">Enter Password</string>
-    <string name="back"><![CDATA[<-- Back]]></string>
+    <string name="digilocker" translatable="false">Digilocker</string>
+    <string name="enter_password" translatable="false">Enter Password</string>
+    <string name="back" translatable="false"><![CDATA[<-- Back]]></string>
     <string name="app_name">name1</string>
+    <string name="todo">TODO</string>
+    <string name="set_your_6_digit_pin_for_2_factor_authentication_to_your_digitallocker_account">Set your 6 digit PIN for 2 factor authentication to your DigitalLocker Account</string>
+    <string name="didn_t_receive_code">Didn\'t receive code..</string>
+    <string name="resend">Resend</string>
+    <string name="next">Next</string>
+    <string name="goback">GoBack</string>
 </resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "20835997008",
+    "project_id": "digi1-47e05",
+    "storage_bucket": "digi1-47e05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20835997008:android:075fd77217d99f85b0c855",
+        "android_client_info": {
+          "package_name": "com.pritish.digilocker1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20835997008-rdqgg6k12q9ulc0v86bmafeukv1o8j6b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pritish.digilocker1",
+            "certificate_hash": "cb557048834782c7966ce57dd98cc69c6c8796a1"
+          }
+        },
+        {
+          "client_id": "20835997008-hu3ip44iedgt2i9m15jdu3oq9ci4tckn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB-jYtIFyrAukd-H30wJXc19pljVDhCLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20835997008-hu3ip44iedgt2i9m15jdu3oq9ci4tckn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

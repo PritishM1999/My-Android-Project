@@ -10,7 +10,6 @@
     tools:context=".MainActivity"
     tools:ignore="MissingClass">
 
-    w
 
     <TextView
         android:id="@+id/sub_name3"
@@ -122,6 +121,7 @@
         app:counterTextColor="#252734">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phone"
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_marginBottom="711dp"
